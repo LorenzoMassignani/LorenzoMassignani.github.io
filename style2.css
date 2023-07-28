@@ -1,0 +1,49 @@
+h1 {
+    color: aliceblue;
+}
+
+#porcavacca {
+    border-bottom: 5px solid silver;
+}
+
+.map-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+
+h3 {
+    text-align:end ;
+    color: aliceblue;
+}
+
+#div1 {
+    width: 75%;
+  
+}
+
+
+
+#div2 {
+    width: 25%;
+    background-color: black;
+    color: white;
+    border: 50px;
+}
+p {
+    color: white;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    background-color:#000;
+    color:#fff;
+    padding: 1rem;
+
+}

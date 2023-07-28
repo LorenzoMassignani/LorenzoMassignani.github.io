@@ -1,0 +1,177 @@
+/* CSS styles go here */
+body {
+   font-family:'Times New Roman', Times, serif;
+   background-color:aliceblue;
+   margin: 0;
+   padding: 0;        
+}
+
+#body1 {
+    background-color: black;
+}
+
+#h11 {
+    color: aliceblue;
+}
+
+#h12 {
+    color: aliceblue;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#000;
+    color:#fff;
+    padding: 1rem;
+}
+
+.searchbar {
+    background-color: silver;
+    border-radius: 4px;
+    border: 2px solid #a89d29;
+    padding: 4px;
+
+}
+
+.searchbar-btn {
+    background-color: #a89d29;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+.searchbar-btn:hover {
+    background-color:#decc05;
+}
+
+nav {
+    background-color: grey;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+nav a {
+    color:black;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-weight:720;
+}
+
+nav a:hover {
+    background-color: grey;
+}
+
+main {
+    padding: 2rem;
+    color: rgb(206, 205, 205);
+    background-image:url(/images/lambo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 5px solid rgb(165, 164, 164);
+
+
+
+
+}
+
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bolder;
+    font-style:normal;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    color:aliceblue;
+    background-image:url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#divvvy {
+    display: flex;
+}
+
+.footer {
+    background-color: black;
+    color:aliceblue;
+    text-align: center;
+    padding: 1rem;
+}
+
+.icons li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.icons li a img{
+    height: 24px;
+    
+
+}
+.icons {
+    list-style: none;
+
+}
+
+table {
+
+font-family: 'Times New Roman', Times, serif;
+font-size: larger;
+font-weight: 600;
+border-width: 500;
+border-color: black;
+
+}
+
+#tr1 {
+    font-weight: 800;
+    font-size: xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#tr2 {
+    font-weight: 800;
+    font-size: xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#k-descr {
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+#title-k {
+    color: #919090;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+#k-image {
+    height: 100%;
+    width: 65%;
+}
+#k-div {
+    background-color: #000;
+    border: 5px solid rgb(165, 164, 164);
+}
+
+#caract-k {
+    color: aliceblue;
+}
